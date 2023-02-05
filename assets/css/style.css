@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+h2::after{
+    content: "";
+    width: 76px;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+.lienhe h2 {
+    font-size: 40px;
+    padding: 8px;
+}
+
+.lienhe h3 {
+    font-size: 26px;
+    padding: 8px;
+}
+
+.lienhe h4 {
+    opacity: 0.5;
+    font-size: 18px;
+    padding: 8px;
+    margin-left: 16px;
+}
+
+.guitin {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-top: 70px;
+    width: 50%;
+    height: 50vh;
+}
+
+.guitin h3 {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.guitin input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: solid grey 0.5px;
+    opacity: 0.5;
+}
+
+.guitin button {
+    background-color: rgb(9, 184, 184);
+    border: solid transparent 1px;
+    color: white;
+    width: 140px;
+    padding: 8px 12px;
+    border: solid transparent 1px;
+    cursor: pointer;
+}
+
+.guitin button:hover {
+    background-color: rgb(7, 114, 114);
+}
+
+#tinnhan {
+    padding-bottom: 60px;
+}
+
